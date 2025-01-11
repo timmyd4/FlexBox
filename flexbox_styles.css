@@ -83,8 +83,9 @@ main
 {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-content: flex-start;
+    justify-content: space-between;
+    align-items: space-between;
+    
 }
 
 .footer-section
@@ -92,7 +93,8 @@ main
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: center;
+    align-content: flex-end;
+    align-items: space-around;
 }
 
 /* 
